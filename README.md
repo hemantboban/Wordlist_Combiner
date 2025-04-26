@@ -28,8 +28,8 @@ Ideal for penetration testers, bug bounty hunters, and CTF players looking to op
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/wordlist-subset-creator.git
-cd wordlist-subset-creator
+git clone https://github.com/hemantboban/Wordlist_Combiner.git
+cd Wordlist_Combiner
 ```
 Install the required dependency:
 ```bash
