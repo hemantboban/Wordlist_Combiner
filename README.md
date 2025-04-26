@@ -42,23 +42,30 @@ pip install termcolor
 python wordlist_combiner.py -d <path_to_wordlists> -s <search_keywords> -o <output_file> [options]
 
 Required arguments:
--d, --directory: Root directory containing the wordlists (e.g., path to SecLists).
 
--s, --search: Substring(s) to search for (comma-separated keywords).
+ -d, --directory: Root directory containing the wordlists (e.g., path to SecLists).
 
--o, --output: Output filename for the combined wordlist.
+ -s, --search: Substring(s) to search for (comma-separated keywords).
+
+ -o, --output: Output filename for the combined wordlist.
 
 Optional arguments:
---folders-only: Search only inside folder names (not filenames).
 
---case-sensitive: Enable case-sensitive matching.
+ --folders-only: Search only inside folder names (not filenames).
 
---no-prompt: Automatically include all matched files without asking for manual selection.
+ --case-sensitive: Enable case-sensitive matching.
+
+ --no-prompt: Automatically include all matched files without asking for manual selection.
 ```
 ---
 
 ## 🎯 Example Scenarios
 ```bash
+Download SecLists wordlist:
+git clone https://github.com/danielmiessler/SecLists.git
+or
+apt -y install seclists
+
 Extract admin-related wordlists for a directory brute-forcing attack:
 python wordlist_combiner.py -d ./SecLists -s admin -o admin_wordlist.txt
 
