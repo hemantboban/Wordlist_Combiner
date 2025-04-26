@@ -63,7 +63,7 @@ Optional arguments:
 ```bash
 Download SecLists wordlist:
 git clone https://github.com/danielmiessler/SecLists.git
-or
+ or
 apt -y install seclists
 
 Extract admin-related wordlists for a directory brute-forcing attack:
