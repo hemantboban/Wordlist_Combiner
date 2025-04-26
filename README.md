@@ -40,6 +40,7 @@ pip install termcolor
 ## 📖 Usage
 ```bash
 python wordlist_combiner.py -d <path_to_wordlists> -s <search_keywords> -o <output_file> [options]
+
 Required arguments:
 -d, --directory: Root directory containing the wordlists (e.g., path to SecLists).
 
