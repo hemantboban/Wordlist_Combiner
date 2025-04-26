@@ -38,7 +38,7 @@ pip install termcolor
 ---
 
 ## 📖 Usage
-```bash
+```
 python wordlist_combiner.py -d <path_to_wordlists> -s <search_keywords> -o <output_file> [options]
 
 Required arguments:
@@ -60,7 +60,7 @@ Optional arguments:
 ---
 
 ## 🎯 Example Scenarios
-```bash
+```
 Download SecLists wordlist:
 git clone https://github.com/danielmiessler/SecLists.git
  or
